@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "packswitch",
+  "version": "${version}",
+  "name": "PackSwitch",
+  "description": "Toggle resource packs instantly with a keybind.",
+  "authors": ["windyfloww"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.packswitch.PackSwitchClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}
